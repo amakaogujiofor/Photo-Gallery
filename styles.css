@@ -1,3 +1,53 @@
+* {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
 body {
   background-color: beige;
+}
+/* .my-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.my-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-photo {
+  border: 2px solid brown;
+  border-radius: 5px;
+  margin: 0.5em;
+}
+
+h1 {
+  text-align: center;
+} */
+
+.container {
+  border: 1px solid brown;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 243, 222);
+  width: fit-content;
+  padding: 0 1em;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.user {
+  order: 1;
+}
+
+.online {
+  order: 0;
+  height: 1em;
+  width: 1em;
+  background-color: rgb(29, 161, 36);
+  border-radius: 50%;
+  margin: 0 0.5em;
 }
